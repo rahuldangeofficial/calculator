@@ -17,7 +17,7 @@ function zero(){
 function one(){
     let flag=limitcheck();
     if(flag){
-        primaryScreen.innerText+="+";
+        primaryScreen.innerText+="1";
     }
 }
 function two(){
