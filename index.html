@@ -13,38 +13,38 @@
 <body class="fr">
     <div class="box container fc">
         <div class="space fr">
-            <div class="box space-2 fc">
-                <div class="screen" style="font-size: 0.8rem;">secondary screen</div>
-                <div class="screen" style="font-size: 1.3rem;">Primary screen</div>
+            <div class="box space-2 fc" style="min-height: 3rem;">
+                <div class="screen" id="secondaryScreen" style="font-size: 0.8rem;"></div>
+                <div class="screen" id="primaryScreen" style="font-size: 1.3rem;"></div>
             </div>
         </div>
         <div class="space fr fjc-se">
-            <div><button class="btn-type1 box">CLEAR</button></div>
-            <div><button class="btn-type1 box">DELETE</button></div>
+            <div><button class="btn-type1 box" onclick="clearScreen()">CLEAR</button></div>
+            <div><button class="btn-type1 box" onclick="erase()">DELETE</button></div>
         </div>
         <div class="space fr fjc-se">
-            <div><button class="box">7</button></div>
-            <div><button class="box">8</button></div>
-            <div><button class="box">9</button></div>
-            <div><button class="box">+</button></div>
+            <div><button class="box" onclick="seven()">7</button></div>
+            <div><button class="box" onclick="eight()">8</button></div>
+            <div><button class="box" onclick="nine()">9</button></div>
+            <div><button class="box" onclick="add()">+</button></div>
         </div>
         <div class="space fr fjc-se">
-            <div><button class="box">4</button></div>
-            <div><button class="box">5</button></div>
-            <div><button class="box">6</button></div>
-            <div><button class="box">*</button></div>
+            <div><button class="box" onclick="four()">4</button></div>
+            <div><button class="box" onclick="five()">5</button></div>
+            <div><button class="box" onclick="six()">6</button></div>
+            <div><button class="box" onclick="multiply()">*</button></div>
         </div>
         <div class="space fr fjc-se">
-            <div><button class="box">1</button></div>
-            <div><button class="box">2</button></div>
-            <div><button class="box">3</button></div>
-            <div><button class="box">-</button></div>
+            <div><button class="box" onclick="one()">1</button></div>
+            <div><button class="box" onclick="two()">2</button></div>
+            <div><button class="box" onclick="three()">3</button></div>
+            <div><button class="box" onclick="subtract()">-</button></div>
         </div>
         <div class="space fr fjc-se">
-            <div><button class="box">.</button></div>
-            <div><button class="box">0</button></div>
-            <div><button class="box">+</button></div>
-            <div><button class="box">=</button></div>
+            <div><button class="box" onclick="divide()">/</button></div>
+            <div><button class="box" onclick="zero()">0</button></div>
+            <div><button class="box" onclick="add()">+</button></div>
+            <div><button class="box" onclick="equal()">=</button></div>
         </div>
     </div>
    

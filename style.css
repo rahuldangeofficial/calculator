@@ -10,7 +10,7 @@
 body{
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: 90vh;
     width: 100vw;
 }
 button{
@@ -20,6 +20,7 @@ button{
     padding: 0;
     border-radius: 100px;
     border: none;
+    background-color: white;
 
 }
 .btn-type1{
@@ -27,13 +28,14 @@ button{
     min-width: 90px;
     border-radius: 10px;
     border: none;
+    background-color: white;
 }
 .container{
     padding: 1rem;
     margin: 1rem;
     max-width: 280px;
     width: 80%;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .screen{
     width: 100%;
