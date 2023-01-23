@@ -1,1 +1,2 @@
-# [calculator-example](https://rahuldangeofficial.github.io/calculator-example/)
+# [calculator](https://rahuldangeofficial.github.io/calculator/)
+A basic calculator app for practise that uses html, CSS, and javascript
