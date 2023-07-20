@@ -1,0 +1,19 @@
+{
+  "name": "calculator",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.2",
+    "vite": "^4.4.0"
+  },
+  "dependencies": {
+    "eslint": "^7.32.0 || ^8.2.0"
+  }
+}
